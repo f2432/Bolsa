@@ -1,0 +1,7 @@
+pandas
+numpy
+yfinance
+PyQt5
+matplotlib
+scikit-learn
+PyYAML

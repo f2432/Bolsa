@@ -1,0 +1,111 @@
+Estou a fazer uma aplicação para gestão das minhas compras e vendas de ações.
+
+A estrutura do meu projeto é:
+
+AC/
+¦
++-- ai/
+¦   +-- predictor.py
+¦   +-- train_utils.py
+¦
++-- backtest/
+¦   +-- metrics.py
+¦   +-- backtester.py
+¦
++-- config/
+¦   +-- settings.yaml
+¦
++-- data/
+¦   +-- data_utils.py
+¦   +-- data_provider.py
+¦
++-- gui/
+¦   +-- indicator_utils.py
+¦   +-- main_window.py
+¦   +-- explore_tab.py
+¦   +-- suggestion_detail_dialog.py
+¦   +-- universe_utils.py
+¦   +-- widgets/
+¦   ¦   +-- backtest_result_dialog.txt
+¦   ¦   +-- chart_widget.py
+¦   +-- dialogs.py
+¦
++-- indicators/
+¦   +-- custom.py
+¦   +-- ta.py
+¦
++-- portfolio/
+¦   +-- portfolio_manager.py
+¦
++-- strategies/
+¦   +-- base_strategy.py
+¦   +-- rsi_macd_combo.py
+¦   +-- sma_crossover.py
+¦
++-- utils/
+¦   +-- logger.py
+¦
++-- suggestion_cache/                # Pasta para guardar as caches geradas
+¦   +-- suggestions_S&P500.csv
+¦   +-- suggestions_NASDAQ100.csv
+¦   +-- ... (etc)
+¦
+¦
++-- universe_utils.py
++-- main.py
++-- portfolio.csv
++-- requirements.txt
++-- trading_app.log
+¦
++-- nyse_tickers.txt
++-- euronext100_tickers.txt
++-- nasdaq100_tickers.txt
++-- cache_sp500.csv
++-- cache_nasdaq100.csv
++-- cache_psi20.csv
++-- cache_euronext100.csv
++-- cache_eurostoxx50.csv
++-- cache_nyse.csv
+¦
++-- ... (outros ficheiros e logs)
+
+Enviei os ficheiros com o código em formato txt. 
+Quero que analises todo o meu projeto e faças uma análise técnica da programação, lógica, algoritmia, inteligência artifical, matemática e financeira. Faz o feedback dessa análise.
+Quero que depois faças uma lista de bugs, sugestões, melhoramentos, upgrades, passos futuros, etc. Para cada um, de forma sequencial e numerada, indica quais os ficheiros envolvidos e 
+uma descriçao detalhada, técnica e profissional da tarefa a desenvolver.
+
+Utiliza todas as fontes para melhorar o meu projeto.
+Se precisares de saber algo antes de começar, algo que seja útil a esta tua resposta, pergunta.
+
+
+
+Preparação para gestão de risco e posição,
+
+Estrutura de dashboard para expansão futura (diário, disciplina, trade score, etc).
+
+Preparar já para integração de futuros indicadores (ex: Force Index, Chandelier Exit/SafeZone, padrões avançados),
+
+Pronto para integração de gestão de risco, stops dinâmicos, position sizing
+
+Este ficheiro é robusto, pode ser expandido facilmente para position sizing e stops.
+
+Pode ser facilmente expandido (ex: Sortino Ratio, métricas de risco personalizado).
+
+Pronto para integração com futuros indicadores/estratégias de IA,
+
+Pronto a expandir para meta-labeling, ensembles, outros modelos scikit-learn,
+
+train_utils.py Pode ser expandido para pipelines mais complexos, mas mantém-se compatível com o resto da arquitetura.
+
+
+Pode ser facilmente adaptado para outros classificadores/regressores, se quiseres fazer experiências rápidas.
+
+data_provider.py Preparado para expansão (multi-timeframe, API brokers, etc).
+Preparado para ser expandido para multi-timeframe, várias fontes, etc.
+
+portfolio_manager.py Pronto para cálculo de métricas e expansível para gestão avançada de risco
+
+Facilmente extensível para overlay de trades, sinais, stops, etc
+
+
+
