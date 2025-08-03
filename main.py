@@ -20,8 +20,7 @@ def main():
     logger.info("Aplicação iniciada com sucesso.")
     sys.exit(app.exec_())
     
-    print("Aplicação encerrada.")
-    
+
 
 if __name__ == "__main__":
     main()
