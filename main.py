@@ -7,7 +7,7 @@ from utils.logger import logger
 import sys
 from PyQt5.QtWidgets import QApplication
 
-def main(): 
+def main():
     logger.info("A iniciar aplicação de trading!")
     data_provider = DataProvider()
     portfolio_manager = PortfolioManager()
