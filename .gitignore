@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Execução local e dados gerados
+*.log
+prediction_log.csv
+suggestion_cache/
+cache_*.csv
+
+# Dados pessoais e financeiros
+portfolio.csv
+portfolio*.csv
+pdf/
+*.pdf
+
+# Modelos e artefactos
+*.pkl
+*.joblib
+*.zip
+*.rar
+
+# Editores e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
